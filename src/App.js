@@ -1,9 +1,6 @@
 import "./App.css";
 import * as React from "react";
-import { ChakraProvider } from "@chakra-ui/react";
-import { Button } from "@chakra-ui/react";
-import { Spinner } from "@chakra-ui/react";
-import { Input } from "@chakra-ui/react";
+import { ChakraProvider, Button, Spinner, Input } from "@chakra-ui/react";
 import DisplayJohn, { JohnProfile } from "./DisplayJohn.js";
 
 function App() {
